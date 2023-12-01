@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+}
+
+@font-face {
+    font-family: "CarlaSansLight";
+    src: url("../fonts/CarlaSansLight.ttf") format("truetype");
+    font-style: Light;
+    font-weight: Light;
+}
+
+p{
+    font-family: 'CarlaSansLight';
+}
+
+
+.pelum {
+    width: 20px;
+    height: 150px;
+    position: relative;
+    margin: 50px auto;
+    animation: pelum 2s ease-in-out infinite;
+    transform-origin: 50% 0%;
+    margin-top: 18%;
+}
+
+@keyframes pelum {
+    0%, 100% {
+    transform: rotate(0deg);
+    }
+    50% {
+    transform: rotate(360deg);
+    }
+    75% {
+    transform: rotate(360deg);
+    }
+    25% {
+    transform: rotate(40deg);
+    }
+}

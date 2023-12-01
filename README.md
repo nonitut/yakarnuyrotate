@@ -1,1 +1,1 @@
-# yakarnuyrotate
+# Шаблон 
